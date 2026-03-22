@@ -62,46 +62,47 @@ const CERTS = [
 
 const PROJECTS = [
   {
-    title: "ERPKita — Integrated ERP Platform",
-    link: "https://erpkita.vercel.app",
-    thumbnail: erpkitaThumb,
+    title: "iPusnas iLibrary — Digital Library System",
+    link: "https://ipusnas2.perpusnas.go.id",
+    thumbnail: ipusnasThumb,
     description:
-      "Platform ERP terintegrasi untuk transformasi digital perusahaan Indonesia dengan 12+ modul (Finance, HR & Payroll, Production, Inventory, CRM, Procurement, Analytics, dan lainnya), real-time dashboard, workflow automation, FAQ/help center, serta dukungan implementasi cepat 3-4 bulan dan support lokal 24/7.",
+      "A digital library platform owned by the National Library of Indonesia, allowing users to access digital book collections, borrow titles, and support broader access to digital literacy.",
   },
   {
     title: "MBG ERP System",
     link: "https://gizihub.vercel.app",
     thumbnail: gizihubThumb,
     description:
-      "Enterprise Resource Planning (ERP) system untuk mendukung pengelolaan operasional dan data pada sektor layanan gizi, dengan fitur dashboard monitoring, manajemen data, serta modul administratif agar proses operasional lebih terstruktur dan efisien.",
+      "An Enterprise Resource Planning (ERP) system designed to support operational and data management in nutrition service sectors, featuring monitoring dashboards, data management capabilities, and administrative modules to make operations more structured and efficient.",
   },
   {
     title: "Trijaya Tissue — Corporate Landing Page",
     link: "https://trijayatissue.com",
     thumbnail: trijayaThumb,
     description:
-      "Website landing page perusahaan untuk memperkuat kehadiran digital brand Trijaya Tissue dengan desain modern, struktur informasi yang jelas, serta penyajian profil perusahaan dan produk secara profesional.",
+      "A corporate landing page built to strengthen Trijaya Tissue's digital presence through modern design, clear information architecture, and professional presentation of the company profile and products.",
   },
   {
     title: "Airos.id — Product Landing Page",
     link: "https://airos.id",
     thumbnail: airosThumb,
     description:
-      "Landing page untuk memperkenalkan produk dan layanan Airos kepada calon pelanggan secara efektif, dengan tampilan responsif, user experience yang baik, dan penyampaian informasi produk yang ringkas.",
+      "A landing page created to introduce Airos products and services to potential customers effectively, with a responsive layout, solid user experience, and concise product messaging.",
   },
   {
     title: "Educourse.id — Education Platform Landing Page",
     link: "https://educourse.id",
     thumbnail: educourseThumb,
     description:
-      "Website landing page platform edukasi digital yang dirancang dengan pendekatan modern UI/UX untuk meningkatkan engagement sekaligus memudahkan pengunjung memahami value produk.",
+      "A digital education platform landing page designed with a modern UI/UX approach to increase engagement while helping visitors quickly understand the product's value.",
   },
+
   {
-    title: "iPusnas iLibrary — Digital Library System",
-    link: "https://ipusnas2.perpusnas.go.id",
-    thumbnail: ipusnasThumb,
+    title: "ERPKita — Integrated ERP Platform",
+    link: "https://erpkita.vercel.app",
+    thumbnail: erpkitaThumb,
     description:
-      "Platform perpustakaan digital milik Perpustakaan Nasional Republik Indonesia yang memungkinkan pengguna mengakses koleksi buku digital, melakukan peminjaman, dan mendukung peningkatan akses literasi digital secara luas.",
+      "An integrated ERP platform for digital transformation in Indonesian companies, featuring 12+ modules (Finance, HR & Payroll, Production, Inventory, CRM, Procurement, Analytics, and more), real-time dashboards, workflow automation, an FAQ/help center, and fast implementation support within 3-4 months with 24/7 local assistance.",
   },
 ];
 
