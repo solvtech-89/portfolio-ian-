@@ -17,6 +17,7 @@
     background: #020617;
     color: #f8fafc;
     font-size-adjust: auto;
+    overflow-y: scroll;
   }
 
   *,
