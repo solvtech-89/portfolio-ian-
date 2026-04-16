@@ -4,6 +4,7 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    scrollbar-gutter: stable;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     font-synthesis: none;
