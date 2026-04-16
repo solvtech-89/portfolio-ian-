@@ -267,8 +267,8 @@ function Hero() {
           </div>
         </div>
 
-        <div className="glass-card overflow-hidden p-4 sm:p-5">
-          <div className="grid gap-4 sm:grid-cols-[1fr_0.9fr] sm:items-center">
+        <div className="w-full glass-card overflow-hidden p-4 sm:p-5">
+          <div className="grid gap-4 sm:grid-cols-[1fr_1fr] sm:items-center">
             <div className="relative overflow-hidden rounded-3xl border border-white/10 bg-slate-900/80 p-4">
               <img
                 src={heroThumb}
