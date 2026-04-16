@@ -65,6 +65,8 @@
     margin-right: auto;
     padding-left: 2rem;
     padding-right: 2rem;
+    /* Debug: visualize container */
+    /* border: 1px solid rgba(34, 211, 238, 0.3); */
   }
 
   @media (min-width: 640px) {
@@ -81,11 +83,19 @@
     }
   }
 
+  @media (min-width: 1280px) {
+    .site-container {
+      padding-left: 5rem;
+      padding-right: 5rem;
+    }
+  }
+
   .section-pad {
     position: relative;
     z-index: 1;
     padding-top: 6rem;
     padding-bottom: 2rem;
+    width: 100%;
   }
 
   .glass-card {
