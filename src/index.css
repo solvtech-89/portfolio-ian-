@@ -6,13 +6,21 @@
     scroll-behavior: smooth;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
+    font-synthesis: none;
   }
 
   body {
     margin: 0;
     font-family: "Manrope", sans-serif;
+    font-style: normal;
     background: #020617;
     color: #f8fafc;
+  }
+
+  *,
+  *::before,
+  *::after {
+    font-synthesis: none;
   }
 
   ::selection {

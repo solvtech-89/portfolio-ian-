@@ -169,14 +169,6 @@ function Navbar() {
           <span className="grid h-10 w-10 place-items-center rounded-2xl border border-white/10 bg-white/5 text-sm font-extrabold tracking-[0.35em] text-cyan-200">
             FA
           </span>
-          <span className="hidden sm:block">
-            <span className="block text-sm font-semibold uppercase tracking-[0.35em] text-slate-400">
-              Portfolio
-            </span>
-            <span className="block text-sm text-slate-200">
-              Firstyan Ageng Maulana
-            </span>
-          </span>
         </a>
 
         <nav className="hidden lg:flex items-center gap-7 text-sm text-slate-400">
