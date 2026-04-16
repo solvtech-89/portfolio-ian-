@@ -199,7 +199,7 @@ function Navbar() {
 function Hero() {
   return (
     <section id="about" className="section-pad pb-10 pt-14 sm:pt-20">
-      <div className="site-container grid items-center gap-8 lg:grid-cols-[1.15fr_0.85fr]">
+      <div className="site-container grid items-center gap-8 lg:grid-cols-2 lg:gap-12">
         <div>
           <span className="inline-flex rounded-full border border-cyan-400/20 bg-cyan-400/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.3em] text-cyan-200">
             Software Engineer | ERP Systems | High-Traffic Web Apps
