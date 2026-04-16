@@ -2,6 +2,10 @@
 @import "tailwindcss";
 
 @layer base {
+  * {
+    box-sizing: border-box;
+  }
+
   html {
     scroll-behavior: smooth;
     scrollbar-gutter: stable;
