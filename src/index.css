@@ -1,9 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800;900&family=IBM+Plex+Mono:wght@400;500;600&display=swap");
 @import "tailwindcss";
 
 @layer base {
   html {
     scroll-behavior: smooth;
     -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    margin: 0;
+    font-family: "Manrope", sans-serif;
+    background: #020617;
+    color: #f8fafc;
+  }
+
+  ::selection {
+    background: rgba(34, 211, 238, 0.28);
+    color: #ffffff;
   }
 
   ::-webkit-scrollbar {
@@ -15,7 +29,7 @@
   }
 
   ::-webkit-scrollbar-thumb {
-    background: #4f46e5;
+    background: #22d3ee;
     border-radius: 999px;
   }
 }
