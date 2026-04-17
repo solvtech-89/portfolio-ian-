@@ -248,23 +248,6 @@ function Hero() {
               GitHub
             </a>
           </div>
-
-          <div className="mt-8 grid gap-3 text-sm text-slate-400 sm:grid-cols-3">
-            <a
-              href={WHATSAPP_LINK}
-              target="_blank"
-              rel="noreferrer"
-              className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3 transition-colors hover:border-cyan-300/40 hover:bg-cyan-300/10"
-            >
-              WhatsApp: 081329877494
-            </a>
-            <div className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3">
-              +62 813-2987-7494
-            </div>
-            <div className="rounded-2xl border border-white/10 bg-white/5 px-4 py-3">
-              Indonesia
-            </div>
-          </div>
         </div>
 
         <div className="w-full glass-card overflow-hidden p-4 sm:p-5">
