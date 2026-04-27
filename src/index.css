@@ -24,7 +24,7 @@
       "Helvetica Neue",
       sans-serif;
     font-style: normal;
-    background: #020617;
+    background: #050505;
     color: #f8fafc;
     font-size-adjust: auto;
     overflow-y: scroll;
@@ -37,7 +37,7 @@
   }
 
   ::selection {
-    background: rgba(34, 211, 238, 0.28);
+    background: rgba(255, 255, 255, 0.18);
     color: #ffffff;
   }
 
@@ -46,11 +46,11 @@
   }
 
   ::-webkit-scrollbar-track {
-    background: #030712;
+    background: #050505;
   }
 
   ::-webkit-scrollbar-thumb {
-    background: #22d3ee;
+    background: #d4d4d4;
     border-radius: 999px;
   }
 }
