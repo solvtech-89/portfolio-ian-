@@ -166,7 +166,7 @@ const WORKS = [
     title: "Airos",
     subtitle: "Professional landing page for business presence",
     image: airosThumb,
-    link: "",
+    link: "https://airos.id",
     description:
       "Company landing page delivered with a clean visual system, responsive layout, and production-ready frontend implementation.",
   },
@@ -593,7 +593,9 @@ function Education() {
             <h3 className="mt-3 text-2xl font-bold text-white">
               Bachelor of Informatics
             </h3>
-            <p className="mt-2 text-neutral-400">Universitas Amikom Purwokerto</p>
+            <p className="mt-2 text-neutral-400">
+              Universitas Amikom Purwokerto
+            </p>
             <p className="mt-2 text-sm text-neutral-600">2020 - 2025</p>
           </Motion.article>
 
@@ -664,7 +666,9 @@ function Contact() {
                 className="border border-white/10 bg-white/[0.03] px-4 py-4 text-sm font-semibold text-white transition-colors hover:border-white hover:bg-white hover:text-black"
               >
                 WhatsApp
-                <span className="mt-2 block text-neutral-500">081329877494</span>
+                <span className="mt-2 block text-neutral-500">
+                  081329877494
+                </span>
               </a>
               <a
                 href="https://linkedin.com/in/firstyan-ageng"
@@ -707,7 +711,8 @@ function Footer() {
     <footer className="border-t border-white/10 bg-black py-8">
       <div className="site-container flex flex-col gap-3 text-sm text-neutral-600 sm:flex-row sm:items-center sm:justify-between">
         <p>
-          &copy; 2026 <span className="text-neutral-300">Firstyan Ageng Maulana</span>
+          &copy; 2026{" "}
+          <span className="text-neutral-300">Firstyan Ageng Maulana</span>
         </p>
         <p>
           Portfolio tuned for software engineering, ERP systems, and
@@ -760,4 +765,3 @@ function App() {
 }
 
 export default App;
-
